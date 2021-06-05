@@ -1,0 +1,169 @@
+ *{
+    margin:0;
+    padding: 0;
+
+}
+ .PAGE{
+
+    width: 100vw;
+ }
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/estrela_fundo.gif');
+    flex-direction: column;
+    background-repeat: repeat;
+  
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+ 
+}
+
+
+header .title{
+   
+    display: flex;
+    justify-content: center;
+    font-family: 'Bevan', cursive;
+    flex-flow: wrap column;
+    text-align: center;
+  
+}
+
+header .title div{
+  margin-bottom: 20px;
+  color: #dcc076;
+  font-size: 3rem;
+}
+header .title span{
+    margin-bottom: 20px;
+    color: #dcc076;
+    font-size: 3.5rem;
+  }
+
+  .bordinha_amarela{
+      border-bottom: 3px solid  #dcc076;
+      background-color: #0d1216;
+  }
+
+  .texto{
+      display: flex;
+    background-color: #0d1216;
+    max-width: 100%;
+    color: #dcc076;
+    font-size: 2.2rem;
+    padding:30px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  .foto_yoda{
+      display: flex;
+      margin-left: auto;
+    align-items: center;
+     width: 100%;
+     height: fit-content;
+      
+      flex-flow: column nowrap;
+      background-color:#263542;
+  }
+  .foto_yoda img{
+    
+      width: 400px;
+     max-width: 50vw;
+    
+    }
+    .logo_star_wars{
+        padding-top:30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color:#0d1216;
+        height: 150px;
+    }
+
+    .logo{
+        width: fit-content;
+        height: fit-content;
+        font-family: 'Bevan', cursive;
+        font-size:2.6rem;
+       
+        color:#FFFF;
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-transform: uppercase;
+        word-spacing: 1rem;
+        background-color: #dcc076;
+        border-radius: 90px;
+        border: 6px solid #c1a45e;
+    }
+
+
+    #conteudo{
+      display: flex;
+        background-color: #0d1216;
+      
+    }
+    .barra_amarela{
+        top:10px;
+        height: inherit;
+        background-color:#dcc076; ;
+        width: 15px;
+        margin-left: 30px;
+        border-radius: 25px;
+        z-index: 1;
+       }
+
+    #conteudo .titulo{
+        padding-left: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        color: #dcc076;
+       
+    }
+
+    #conteudo .desc{
+        padding-left:20px;
+        font-size: 20px;
+        margin-top: 20px;
+        color:azure;
+
+    }
+    #conteudo .bolinha{
+      
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #7e8038;
+        border: 2px solid #dcc076;
+    }
+
+    #conteudo .divisa{
+        position:block;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    #conteudo .conteudo{
+     
+        flex-direction: column;
+        z-index: 2;
+    }
+
+    .posicao{
+        position: absolute;
+        margin-top: 3px;
+        margin-left: -18px;
+        
+        z-index: 2;
+    }
